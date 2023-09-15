@@ -154,3 +154,52 @@ See the full analysis in the [Jupyter Notebook](Final%20Notebook.ipynb), review 
 For additional info, contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), Nick Kai at [nhknicholas@gmail.com](mailto:nhknicholas@gmail.com), or Reyn Chagami at [rchagami17@gmail.com](mailto:rchagami17@gmail.com).
 
 ## Repository Structure
+```
+├── Code
+│   ├── CONTRIBUTING.md
+│   ├── LICENSE.md
+│   ├── Nick Notebook.ipynb
+│   ├── Rachel.ipynb
+│   ├── Rachel_V2.ipynb
+│   ├── Reyn.ipynb
+│   └── movie_data_erd.jpeg
+├── Images
+│   ├── Documentary_Revenue_Count.png
+│   ├── Hail_Ceaser.jpg
+│   ├── avg_doc_genre.png
+│   ├── avg_profit_per_genre.png
+│   ├── avg_profit_per_genre_multiplot.png
+│   ├── avg_revenue_per_genre.png
+│   ├── budget_regplot.png
+│   ├── genre_combo_top20_rev.png
+│   ├── indiana.jpg
+│   ├── mean_profit_by_genre_release_month.png
+│   ├── median_profit_by_genre_release_month.png
+│   └── profit_vs_release_month_boxplot.png
+├── unzippedData
+│   └── Duplicates
+│       ├── imdb_movies.csv
+│       ├── tn.movie_budgets.csv
+│       ├── bom.movie_gross.csv
+│       ├── imdb_movies.csv
+│       ├── megadf.csv
+│       ├── megadf2.csv
+│       ├── megadf3.csv
+│       ├── megadf4.csv
+│       ├── rt.movie_info.tsv
+│       ├── rt.reviews.tsv
+│       └── tmdb.movies.csv
+├── zippedData
+│   ├── archive.zip
+│   ├── bom.movie_gross.csv.gz
+│   ├── im.db.zip
+│   ├── rt.movie_info.tsv.gz
+│   ├── rt.reviews.tsv.gz
+│   ├── tmdb.movies.csv.gz
+│   └── tn.movie_budgets.csv.gz
+├── .gitignore
+├── Final Notebook.ipynb
+├── My Big Fat Greek T Distribution Slide Deck.pdf
+├── README.md
+└── file_in_root.ext
+```
