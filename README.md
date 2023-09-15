@@ -137,7 +137,7 @@ Our 3 Actionable insights that we recommend are as follows.
 
 ### Next Steps
 
-**After this analysis, we are left with some questions**
+**After this analysis, we are left with some questions ;**
 ***The biggest question is what effect crew has on a Documentary.***
 
 -Is there a documentary director or narrator who tends to make more money on average than others? 
