@@ -68,6 +68,6 @@ The biggest question is what effect crew has on a Documentary.
 
 See the full analysis in the [Jupyter Notebook](), review this [presentation](), or take a look at our [Tableau Dashboard](https://public.tableau.com/app/profile/nicholas.kai3061/viz/FinalDashPhase2Project/Dashboard1?publish=yes).
 
-For additional info, contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), Nick Kai at [nhknicholas@gmail.com](mailto:nhknicholas@gmail.com), or Reyn Chagami at [tristantrechsel@gmail.com](mailto:).
+For additional info, contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), Nick Kai at [nhknicholas@gmail.com](mailto:nhknicholas@gmail.com), or Reyn Chagami at [rchagami17@gmail.com](mailto:rchagami17@gmail.com).
 
 ## Repository Structure
