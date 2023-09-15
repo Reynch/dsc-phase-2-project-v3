@@ -106,7 +106,7 @@ Regarding the release month, we found that although most genres have remarkably 
   <img src="Images/profit_vs_release_month_boxplot.png" width=70% height=70% /> 
   <img src="Images/median_profit_by_genre_release_month.png"/>
 
-
+# Budget
 
 <img src="Images/budget_regplot.png"/>
 
@@ -140,7 +140,9 @@ Our 3 Actionable insights that we recommend are as follows.
 **After this analysis, we are left with some questions**
 
 The biggest question is what effect crew has on a Documentary.
--**Is there a documentary director or narrator who tends to make more money on average than others?** We began looking into what subgenres have the highest gross revenue, as well as were the most successful overall, but is there a possible correlation with the cast as well?
+-**Is there a documentary director or narrator who tends to make more money on average than others?** 
+
+-We began looking into what subgenres have the highest gross revenue, as well as which were the most successful overall, but is there a possible correlation with the cast as well?
 
 -**What types of Movies score the best?** One next step we would hope to take is to use machine learning to help create a predictive model of what types of movies would be most successful and create the most profit with what actors.
 
