@@ -138,9 +138,9 @@ Our 3 Actionable insights that we recommend are as follows.
 ### Next Steps
 
 **After this analysis, we are left with some questions**
+***The biggest question is what effect crew has on a Documentary.***
 
-The biggest question is what effect crew has on a Documentary.
--**Is there a documentary director or narrator who tends to make more money on average than others?** 
+-Is there a documentary director or narrator who tends to make more money on average than others? 
 
 -We began looking into what subgenres have the highest gross revenue, as well as which were the most successful overall, but is there a possible correlation with the cast as well?
 
