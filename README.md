@@ -1,6 +1,7 @@
 
 
 # Movie Data Analysis Project
+![Hail Ceaser!!!](./images/Hail_Ceaser.jpg)
 
 **"Our Big Fat Greek T Distribution"**
 
@@ -13,6 +14,7 @@ This project analyzes [data]([https://www.kaggle.com/datasets/khsamaha/aviation-
 ## Business Problem
 
 ![img](./images/Airplane_Window.jpg)
+
 
 We have been charged with exploring what types of films are currently doing the best at the box office by a new movie studio. We have been asked to translate our findings into actionable insights that the head of our company's new movie studio can use to help decide what type of films to create.
 
@@ -30,7 +32,10 @@ This project uses a variety of data cleaning methods to organize and subset the 
   
 ## Results
 
+**This is our results when we decided to break down the average profit per genre**
+![img](./Images/avg_profit_per_genre_multiplot.png)
 
+![img](./Images/)
 
 
 ## Conclusions
