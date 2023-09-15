@@ -1,11 +1,12 @@
 
 
 # Movie Data Analysis Project
-![Hail Ceaser!!!](./images/Hail_Ceaser.jpg)
+
+![Hail Ceaser](./Images/Hail_Ceaser.jpg)
 
 **"Our Big Fat Greek T Distribution"**
 
-**Authors**: [Rachel Goldstein](mailto:rachelhgoldstein1@gmail.com), [Nick Kai](mailto:nhknicholas@gmail.com), [Reyn Chagami](mailto:)
+**Authors**: [Rachel Goldstein](mailto:rachelhgoldstein1@gmail.com), [Nick Kai](mailto:nhknicholas@gmail.com), [Reyn Chagami](mailto:rchagami17@gmail.com)
 
 ## Overview
 
@@ -13,7 +14,7 @@ This project analyzes [data]([https://www.kaggle.com/datasets/khsamaha/aviation-
 
 ## Business Problem
 
-![img](./images/Airplane_Window.jpg)
+![img](./Images/)
 
 
 We have been charged with exploring what types of films are currently doing the best at the box office by a new movie studio. We have been asked to translate our findings into actionable insights that the head of our company's new movie studio can use to help decide what type of films to create.
