@@ -33,22 +33,12 @@ This project uses a variety of data cleaning methods to organize and subset the 
   
 ## Results
 
-**This is our results when we decided to break down the average profit per genre**
+**This is our results when we decided to break down the average revenue per genre**
 <p float="left">
   <img src="Images/avg_profit_per_genre_multiplot.png" width=70% height=70% /> 
   <img src="Images/Documentary_Revenue_Count.png" width=45% height=45% />
 
 **Documentaries were the most normally distributed while also being on a large scale**
-
-<p float="left">
-  <img src="Images/avg_profit_per_genre.png" width=70% height=70% /> 
-
-# Release Month
-Regarding the release month, we found that although most genres have remarkably low margins in September, Documentaries scored particularly well 
-
-<p float="left">
-  <img src="Images/profit_vs_release_month_boxplot.png" width=70% height=70% /> 
-  <img src="Images/median_profit_by_genre_release_month.png"/>
 
 ```
 revenue_means = {}
@@ -57,25 +47,25 @@ for genre in genre_list:
     mean = imdb_movies[imdb_movies[genre] == True]['revenue'].mean()
     revenue_means[genre] = mean
 revenue_means
-{'Action': 270245339.678607,
- 'Adventure': 340548869.7905797,
- 'Comedy': 239921005.32046333,
- 'Family': 347019522.43114257,
- 'Crime': 167925962.76549864,
- 'Thriller': 194499578.42893812,
- 'Animation': 401238719.48764336,
- 'Horror': 199979449.0441838,
- 'Fantasy': 330199644.1764089,
- 'Romance': 188007507.25579512,
- 'Science Fiction': 306093486.91767675,
- 'Documentary': 504977146.8864198,
- 'History': 189244794.9480176,
- 'Music': 282985112.09090906,
- 'Mystery': 221578726.14369604,
- 'Drama': 181894333.93492872,
- 'War': 182858934.16183206,
- 'Western': 220669465.25084746,
- 'TV Movie': 471846708.54651165}
+ [('Documentary', 504977146.8864198),
+ ('TV Movie', 471846708.54651165),
+ ('Animation', 401238719.48764336),
+ ('Family', 347019522.43114257),
+ ('Adventure', 340548869.7905797),
+ ('Fantasy', 330199644.1764089),
+ ('Science Fiction', 306093486.91767675),
+ ('Music', 282985112.09090906),
+ ('Action', 270245339.678607),
+ ('Comedy', 239921005.32046333),
+ ('Mystery', 221578726.14369604),
+ ('Western', 220669465.25084746),
+ ('Horror', 199979449.0441838),
+ ('Thriller', 194499578.42893812),
+ ('History', 189244794.9480176),
+ ('Romance', 188007507.25579512),
+ ('War', 182858934.16183206),
+ ('Drama', 181894333.93492872),
+ ('Crime', 167925962.76549864)] 
 ```
 
 ```
@@ -109,6 +99,21 @@ revenue_medians_sorted
 ```
 
 
+# Release Month
+Regarding the release month, we found that although most genres have remarkably low margins in September, Documentaries scored particularly well 
+
+<p float="left">
+  <img src="Images/profit_vs_release_month_boxplot.png" width=70% height=70% /> 
+  <img src="Images/median_profit_by_genre_release_month.png"/>
+
+
+
+<img src="Images/budget_regplot.png"/>
+
+Our regression model shows 
+- a budget over $15 million had diminishing returns and higher variance in regard to profit.
+- a budget between $10-$15 million had the highest profit
+
 ## Conclusions
 
 Our 3 Actionable insights that we recommend are as follows.
@@ -124,9 +129,9 @@ Our 3 Actionable insights that we recommend are as follows.
 - If it is not possible to release in September, December, and November, also have a high rate of average revenue
 
 #3
-- Spend at least ______ on your documentary
-- There seems to be a positive correlation that if you spend at least ____ on your documentary, it has a higher likelihood of profitability
-- Do not spend more than ______ on your documentary, as it seems budget has diminishing returns on profit.
+- Spend around $10-$15 million on your documentary
+- There seems to be a positive correlation that if you spend at least $10 million on your documentary, it has a higher likelihood of profitability
+- Do not spend more than $15 million on your documentary, as it seems the budget has diminishing returns on profit.
 
   
 
@@ -142,7 +147,7 @@ The biggest question is what effect crew has on a Documentary.
 
 ## For More Information
 
-See the full analysis in the [Jupyter Notebook](), review this [presentation](), or take a look at our [Tableau Dashboard](https://public.tableau.com/app/profile/nicholas.kai3061/viz/FinalDashPhase2Project/Dashboard1?publish=yes).
+See the full analysis in the [Jupyter Notebook](Final%20Notebook.ipynb), review this [presentation](My%20Big%20Fat%20Greek%20T%20Distribution%20Slide%20Deck.pdf), or take a look at our [Tableau Dashboard](https://public.tableau.com/app/profile/nicholas.kai3061/viz/FinalDashPhase2Project/Dashboard1?publish=yes).
 
 For additional info, contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), Nick Kai at [nhknicholas@gmail.com](mailto:nhknicholas@gmail.com), or Reyn Chagami at [rchagami17@gmail.com](mailto:rchagami17@gmail.com).
 
